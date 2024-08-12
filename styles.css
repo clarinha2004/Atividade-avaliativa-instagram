@@ -9,19 +9,8 @@
     align-items: center;
     height: 100vh;
     background-color:#fafafa;
+    gap: 30px;
  }
- .miolo{
-    display: flex;
-    justify-content: space-evenly;
-    align-items: center;
-    flex-direction: column;
-    background-color: #f1a4c2;
-    border: 0.5px solid#8e8e8e;
-    border-radius: 10px;
-    height: 400px;
-    width: 700px;
-    padding: 10px;     
-}
  
 
 .login-container{
@@ -32,9 +21,10 @@
     box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.1);
     border-radius: 5px;
     width: 320px;
+    
 }
 .logo{
-    width: 120px;
+    width: 180px;
     margin-bottom: 20px;
    
 
@@ -58,6 +48,18 @@
     font-weight: bold;
     cursor: pointer;
 
+
+}
+.divider{
+    margin:  15px 0;
+    display: flex;
+    align-items: center;
+}
+.divider::before , .divider::after{
+    content: '';
+    flex: 1;
+    border-top: 1px solid #dbdbdb;
+
 }
 
 
@@ -65,17 +67,83 @@
 .ou{
      margin: 0 15px;
     color: #8e8e8e;
-    text-align: center;
+   
+    
+}
+.linkface{
     display: flex;
-    justify-content: center;
+    align-items: center; 
+    justify-content: center; 
+    gap: 5px;
+
+}
+.face{
+    height: min-content;
+    width: 25px;
+}
+
+.facebook{
+    color: #13486b;
+    text-decoration: none;
+    display: block;
+    margin-top: 15px;
+    font-size: medium;
+
+}
+
+
+.Esqueceu{
+    color: #185279;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+    font-size: smaller;
+}
+
+.baixar{
+    display: flex;
+    width: 100%;
+    justify-content:space-evenly;
     align-items: center;
+    padding: 1px;
+    font-size: small;
+    
+}
+.cadastrar{
+    border: 1px solid #dbdbdb;
+    display: flex;
+    width: 100%;
+    justify-content:center;
+    align-items: center;
+    padding: 10px;
+    font-size: small;
+}
+
+.cadastro{
+    color: #0095f6;
+    text-decoration: none;
+    display: block;
+    margin-top: 10px;
+   
+
+}
+
+.apps{
+    display: flex;
+    width: 100%;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 1rem;
     
 }
 
-.login-form a{
-    color: #0095f6;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    text-align: center;
+.app1{
+    height: 2rem;
+    width: 8rem;
+    background-size: cover;
+}
+.app2{
+    height: 2rem;
+    width: 8rem;
+    background-size: cover;
 }
