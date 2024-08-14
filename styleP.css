@@ -6,12 +6,13 @@
 }
 
 
-/* Adiciona o contêiner pai com display flex */
+
+
 .container {
     display: flex;
 }
 
-/* Ajusta a largura das divs internas */
+
 .opcoes {
     flex: 1;
     max-width: 250px;
@@ -23,19 +24,20 @@
     top: 0;
 }
 
-/* Estilo para o contêiner do logo */
+
+
 .logo-container {
     text-align: center;
     margin-bottom: 20px;
 }
 
-/* Estilo para a logo */
+
 .logo {
     width: 150px;
     margin-bottom: 20px;
 }
 
-/* Estilo para a lista de botões */
+
 .botoes {
     list-style-type: none;
     padding: 0;
@@ -66,7 +68,7 @@
 
 
 body {
-    background-color: #fafafa;
+    background-color: #fff;
 }
 
 .geral-info {
@@ -74,7 +76,7 @@ body {
     flex-direction: column;
 }
 
-.profile-container {
+.perfil-container {
     width: 60%;
     max-width: 935px;
     margin: 0 auto;
@@ -83,7 +85,7 @@ body {
     width: 100%;
 }
 
-.profile-header {
+.perfil-header {
     display: flex;
     align-items: center;
     margin-bottom: 20px;
@@ -91,12 +93,12 @@ body {
     justify-content: center;
 }
 
-.profile-image {
+.perfil-image {
     margin-right: 100px;
     max-width:350px;
 }
 
-.profile-image img {
+.perfil-image img {
     width: 150px;
     height: 150px;
     border-radius: 50%;
@@ -141,20 +143,24 @@ body {
     
 }
 
-.profile-info {
+.perfil-info {
     display: flex;
     align-items: center;
     gap: 10px;
     flex: 1;
 }
 
-.edit-profile-btn, .arquiv-btn {
+.edit-perfil-btn, .arquiv-btn {
     border: 1px solid #f1f1f1;
     background:  #f1f1f1;
     border-radius: 10px;
 }
 
-.edit-profile-btn, .arquiv-btn, .settings-btn {
+
+
+
+
+.edit-perfil-btn, .arquiv-btn, .config-btn {
     font-size: 14px;
     cursor: pointer;
     text-align: center;
@@ -165,7 +171,7 @@ body {
     margin-bottom: 10px;
 }
 
-.settings-btn {
+.config-btn {
     border: none;
     background: none;
     font-size: 30px;
@@ -173,39 +179,40 @@ body {
     text-align: center;
 }
 
-.profile-stats {
+.perfil-stats {
     display: flex;
     justify-content: space-between;
     margin-bottom: 20px;
     align-items: center;
     text-align: center;
+   
 }
 
-.stat-number {
+.stat-numero {
     font-weight: bold;
 }
 
-.profile-bio {
+.perfil-bio {
     margin-bottom: 20px;
     font-size: small;
 }
 
-.profile-bio label {
+.prerfil-bio label {
     font-weight: bold;
 }
 
-.profile-posts {
+.feed {
     width: 100%;
     border-collapse: collapse;
     border: 0;
 }
 
-.post-thumbnail {
+.post {
     width: 32%;
     padding: 1px;
 }
 
-.post-thumbnail img {
+.post img {
     width: 100%;
     aspect-ratio: 1;
     object-fit: cover;
