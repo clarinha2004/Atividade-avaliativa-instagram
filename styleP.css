@@ -1,0 +1,247 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
+
+/* Adiciona o contêiner pai com display flex */
+.container {
+    display: flex;
+}
+
+/* Ajusta a largura das divs internas */
+.opcoes {
+    flex: 1;
+    max-width: 250px;
+    background-color: #fff;
+    border-right: 1px solid #dbdbdb;
+    padding: 20px 10px;
+    height: 100vh;
+    position: sticky;
+    top: 0;
+}
+
+/* Estilo para o contêiner do logo */
+.logo-container {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a logo */
+.logo {
+    width: 150px;
+    margin-bottom: 20px;
+}
+
+/* Estilo para a lista de botões */
+.botoes {
+    list-style-type: none;
+    padding: 0;
+}
+
+.botoes li {
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    margin-bottom: 10px;
+    cursor: pointer;
+    font-size: 16px;
+    color: #262626;
+    transition: background-color 0.3s;
+}
+
+.botoes li:hover {
+    background-color: #f1f1f1;
+    border-radius: 10px;
+}
+
+
+.botoes i {
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+
+
+body {
+    background-color: #fafafa;
+}
+
+.geral-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.profile-container {
+    width: 60%;
+    max-width: 935px;
+    margin: 0 auto;
+    padding: 20px 0;
+    flex: 3; 
+    width: 100%;
+}
+
+.profile-header {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+    gap: 10px;
+    justify-content: center;
+}
+
+.profile-image {
+    margin-right: 100px;
+    max-width:350px;
+}
+
+.profile-image img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.story-container {
+    margin-left: 80px;
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+    flex: 1;
+}
+
+.story {
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+
+}
+
+.story-image img {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+.story-legendas{
+    display: flex;
+    justify-content: flex-start;
+    gap: 15px;
+    
+    
+}
+
+.story-legenda {
+   margin-left: 29px;
+   margin-right: 29px;
+   justify-content: space-between;
+    font-size: x-small;
+    
+    
+}
+
+.profile-info {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    flex: 1;
+}
+
+.edit-profile-btn, .arquiv-btn {
+    border: 1px solid #f1f1f1;
+    background:  #f1f1f1;
+    border-radius: 10px;
+}
+
+.edit-profile-btn, .arquiv-btn, .settings-btn {
+    font-size: 14px;
+    cursor: pointer;
+    text-align: center;
+    white-space: nowrap;
+    flex: 1;
+    width: 100%;
+    padding: 10px 20px;
+    margin-bottom: 10px;
+}
+
+.settings-btn {
+    border: none;
+    background: none;
+    font-size: 30px;
+    cursor: pointer;
+    text-align: center;
+}
+
+.profile-stats {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+    align-items: center;
+    text-align: center;
+}
+
+.stat-number {
+    font-weight: bold;
+}
+
+.profile-bio {
+    margin-bottom: 20px;
+    font-size: small;
+}
+
+.profile-bio label {
+    font-weight: bold;
+}
+
+.profile-posts {
+    width: 100%;
+    border-collapse: collapse;
+    border: 0;
+}
+
+.post-thumbnail {
+    width: 32%;
+    padding: 1px;
+}
+
+.post-thumbnail img {
+    width: 100%;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+.divider {
+    margin: 15px 0;
+    display: flex;
+    align-items: center;
+}
+
+.divider::before,
+.divider::after {
+    content: '';
+    flex: 1;
+    border-top: 1px solid #dbdbdb;
+}
+
+.pb{color: #262626;}
+
+.abas {
+    font-size: medium;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    padding: 10px 20px;
+    color: darkgray;
+    
+}
+
+
+
+.logo {
+    width: 180px;
+    margin-bottom: 20px;
+    padding: 20px;
+    text-align: center;
+    
+}

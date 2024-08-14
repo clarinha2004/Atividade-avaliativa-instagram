@@ -1,11 +1,115 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-BR">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Perfil do Instagram</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <link rel="stylesheet" href="styleP.css">
 </head>
 <body>
-    
+    <div class="container">  <!-- Menu de navegação lateral -->
+        <div class="opcoes">
+            <div class="logo-container">
+                <img class="logo" src="img-login/Instagram-Logo.png" alt="Instagram Logo">
+            </div>
+            <ul class="botoes">
+                <li><i class="fas fa-home"></i> Página inicial</li>
+                <li><i class="fas fa-search"></i> Pesquisa</li>
+                <li><i class="fa-regular fa-compass"></i> Explorar</li>
+                <li><i class="fa-solid fa-film"></i> Reels</li>
+                <li><i class="fa-regular fa-envelope"></i> Mensagens</li>
+                <li><i class="fa-regular fa-heart"></i> Notificações</li>
+                <li><i class="fa-regular fa-plus-square"></i> Criar</li>
+                <li><i class="fa-regular fa-circle-user"></i> Perfil</li>
+                <li><i class="fas fa-bars"></i> Mais</li>
+
+            </ul>
+        </div>
+
+        <!-- Contêiner do perfil -->
+        <div class="profile-container">
+            <header class="profile-header">
+                <div class="profile-image">
+                    <img src="img-perfil/★.jfif" alt="Foto de Perfil">
+                </div>
+
+                <div class="geral-info">
+                    <div class="profile-info">
+                        <label class="profile-username">Blair_Waldorf</label>
+                        <button class="edit-profile-btn">Editar Perfil</button>
+                        <button class="arquiv-btn">Itens Arquivados</button>
+                        <button class="settings-btn">&#x2699;</button>
+                    </div>
+
+                    <div class="profile-stats">
+                        <div>
+                            <span class="stat-number">6</span>
+                            <span class="stat-label">publicações</span>
+                        </div>
+                        <div>
+                            <span class="stat-number">6K</span>
+                            <span class="stat-label">seguidores</span>
+                        </div>
+                        <div>
+                            <span class="stat-number">450</span>
+                            <span class="stat-label">seguindo</span>
+                        </div>
+                    </div>
+
+                    <div class="profile-bio">
+                        <label>Blair Cornelia Waldorf</label>
+                        <p>Upper East Side/New York 🗽
+                            <br>
+                           Business - Columbia 🎓
+                           <br>
+                           Waldorf's Designer ✂️
+                        </p>
+                    </div>
+                </div>
+            </header>
+
+            <main>
+                <div class="story-container">
+                    <div class="story">
+                        <div class="story-image">
+                            <img src="img-perfil/aebcea5c739a2f74318f0dba92069404.jpg" alt="Story 1">
+                        </div>
+                        <div class="story-image">
+                            <img src="img-perfil/images.png" alt="Story 2">
+                        </div>
+                    </div>
+                    <div class="story-legendas"> <div class="story-legenda">
+                        <span>B.W 👄👄</span>
+                    </div>
+                    <div class="story-legenda"><span>NOVO</span></div>
+                   
+                        
+                    </div>
+                </div>
+
+                <div class="divider"></div>
+
+                <div class="abas">
+                    <div><span class="pb"><i class="fas fa-table"></i> Publicações</span></div>
+                    <div><span><i class="fa-regular fa-star"></i> Salvos</span></div>
+                    <div><span><i class="fas fa-circle-user"></i> Marcações</span></div>
+                </div>
+
+                <table class="profile-posts">
+                    <tr>
+                        <td class="post-thumbnail"><img src="img-perfil/Peonias rosas.jfif" alt="Post 1"></td>
+                        <td class="post-thumbnail"><img src="img-perfil/Blair&Chuck.jfif" alt="Post 2"></td>
+                        <td class="post-thumbnail"><img src="img-perfil/Empire state building, new york skyline, nyc skyline, city sunset, manhattan view, empire state building view, new york office view, new york internship.jfif" alt="Post 3"></td>
+                    </tr>
+                    <tr>
+                        <td class="post-thumbnail"><img src="img-perfil/baixados.jfif" alt="Post 4"></td>
+                        <td class="post-thumbnail"><img src="img-perfil/4e3a7282-1f8c-43c3-a474-b62abd8d528c.jfif" alt="Post 5"></td>
+                        <td class="post-thumbnail"><img src="img-perfil/Gossip Girl Blair Waldorf.jfif" alt="Post 6"></td>
+                    </tr>
+                </table>
+            </main>
+        </div>
+    </div>
 </body>
 </html>
